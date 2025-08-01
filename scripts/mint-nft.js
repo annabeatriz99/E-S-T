@@ -12,7 +12,7 @@ async function main() {
   const [signer] = await ethers.getSigners();
   const tx = await contract.connect(signer).mintNFT(recipient, tokenURI);
   await tx.wait();
-  console.log(`✅ NFT mintado para ${recipient} com URI ${tokenURI}`);
+  console.log(` NFT mintado para ${recipient} com URI ${tokenURI}`);
 }
 
 main().catch((error) => {

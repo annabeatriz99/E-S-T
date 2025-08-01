@@ -11,7 +11,7 @@ async function uploadJSON(filePath) {
     headers: { Authorization: `Bearer ${JWT}` }
   });
 
-  console.log("✅ Upload completo. CID:", res.data.IpfsHash);
+  console.log("Upload completo. CID:", res.data.IpfsHash);
 }
 
 uploadJSON("./scripts/assets/asset1.json");
