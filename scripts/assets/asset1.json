@@ -1,0 +1,10 @@
+{
+  "name": "Apartamento em São Paulo",
+  "description": "Unidade 12A, 75m², 2 quartos com varanda.",
+  "image": "ipfs://PLACEHOLDER_IMAGE_CID",
+  "attributes": [
+    { "trait_type": "Localização", "value": "São Paulo" },
+    { "trait_type": "Área", "value": "75m²" },
+    { "trait_type": "Quartos", "value": 2 }
+  ]
+}
